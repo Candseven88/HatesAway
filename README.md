@@ -72,6 +72,31 @@ npm run deploy
 
 Open [http://localhost:3000](http://localhost:3000) to see the app.
 
+## 🚀 Deploy to Cloudflare Pages
+
+This app is ready to deploy to Cloudflare Pages!
+
+### Quick Deploy
+
+1. **Push to GitHub** ✅ (Already done!)
+2. **Visit** [Cloudflare Dashboard](https://dash.cloudflare.com/)
+3. **Create Pages Project** → Connect to GitHub → Select `HatesAway`
+4. **Configure Build**:
+   - Framework: `Next.js (Static Export)`
+   - Build command: `npm run build`
+   - Output directory: `out`
+5. **Deploy** 🎉
+
+**See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.**
+
+### Your App Will Be Live At:
+```
+https://hatesaway.pages.dev
+```
+
+### Auto-Deploy
+Every push to `main` branch triggers automatic deployment! 🔄
+
 ## Development Status
 
 🎉 **Current Phase**: Phase 1 - MVP Development (Day 4 Completed)
