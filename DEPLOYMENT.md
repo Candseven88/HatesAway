@@ -42,9 +42,11 @@ Production branch: main
 |--------|-----|
 | **Framework preset** | Next.js (Static HTML Export) |
 | **Build command** | `npm run build` |
-| **Build output directory** | `out` |
+| **Build output directory** | `out` ⚠️ **必须是 out！** |
 | **Root directory** | (留空) |
 | **Environment variables** | (暂不需要) |
+
+⚠️ **重要**：`Build output directory` 必须设置为 `out`，否则会出现 404 错误！
 
 ---
 
